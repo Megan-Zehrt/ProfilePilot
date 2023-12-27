@@ -1,0 +1,79 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.Personal-Experience-Flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.Input-Name {
+	border-radius: 5px;
+	height: 30px;
+	width: 200px;
+	margin-bottom: 10px;
+	box-shadow: 2px 2px 2px 2px lightgray;
+}
+
+.Input-About {
+	border-radius: 5px;
+	height: 270px;
+	width: 200px;
+	box-shadow: 5px 5px 5px 5px lightgray;
+
+}
+
+#Form-DIV {
+	margin-top: 100px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+
+.Project-Flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.About-P {
+	margin-top: 0px;
+	font-size: 20px;
+	font-family: cursive, 'Lucida Handwriting';
+	margin-bottom: 10px;
+}
+
+.Styling-Flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.Styling-Each {
+	display: flex;
+}
+
+.Styling-Input {
+	border-radius: 5px;
+	height: 30px;
+	width: 100px;
+	margin-bottom: 10px;
+	box-shadow: 2px 2px 2px 2px lightgray;
+	margin-left: 10px;
+}
+
+.Project-P{
+	font-size: 15px;
+	font-family: cursive, 'Lucida Handwriting';
+}
+
+.Date-P{
+	margin-bottom: 1px;
+	font-size: 15px;
+	font-family: cursive, 'Lucida Handwriting';
+}
+
+#Styling-Section{
+	margin-top: 100px;
+}

@@ -1,0 +1,757 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+#HomeBody {
+	background-color: #F5F5F5;
+}
+
+.HomeNavBar {
+	background-color: black;
+	height: 100px;
+	padding-left: 30px;
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+}
+
+.HomeWebName {
+	font-size: 30px;
+	color: white;
+	padding-top: 35px;
+	font-family: serif, 'Georgia';
+	margin-right: 900px;
+	cursor: pointer;
+}
+
+.signbtn {
+	text-decoration: none;
+	background-color: transparent;
+	border-radius: 10px;
+	box-shadow: 10px none;
+	color: white;
+	transition: box-shadow 0.3s ease;
+	border: none;
+	font-size: 20px;
+	font-family: cursive, 'Lucida Handwriting';
+	padding: 5px;
+	margin-top: 32px;
+	margin-left: 300px;
+}
+
+.signbtn:hover {
+	box-shadow: #F5F5F5;
+	transform: scale(1.1);
+	box-shadow: 2px 2px 2px #F5F5F5;
+}
+
+.HelloUserHome {
+	font-size: 30px;
+	color: white;
+	margin-top: 27px;
+	margin-left: 20px;
+}
+
+
+.flex {
+	display: flex;
+}
+
+/* Style the button and hide the dropdown content by default */
+.dropbtn {
+	transform-style: preserve-3d;
+	background-color: #3498db;
+	color: #fff;
+	padding: 10px;
+	cursor: pointer;
+	transition: transform 0.8s;
+}
+
+.dropdown {
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+}
+
+.dropdown-content {
+	display: none;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+	position: absolute;
+	background-color: rgb(0, 0, 0);
+	min-width: 160px;
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	width: 100%;
+	height: 50px;
+	padding-left: 10px;
+}
+
+/* Style the dropdown links */
+.dropdown-content a {
+	color: white;
+	padding: 12px 16px;
+	display: block;
+	text-decoration: none;
+	transition: transform 0.8s;
+}
+
+/* Change color on hover for the dropdown links */
+.dropdown-content a:hover {
+	color: #333;
+	cursor: pointer;
+	transition: transform 0.8s;
+}
+
+/* Show the dropdown content when hovering over the button */
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdownlinks {
+	font-family: cursive, 'Lucida Handwriting';
+	color: white;
+}
+
+.PortfolioWelcomeName {
+	font-size: 30px;
+	color: white;
+	padding-top: 30px;
+	font-family: serif, 'Georgia';
+	margin-right: 900px;
+	cursor: pointer;
+	margin-left: 20px;
+
+}
+
+.logoImage {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+}
+
+.HomeBtn {
+	text-decoration: none;
+	background-color: black;
+	border-radius: 10px;
+	box-shadow: 10px none;
+	color: white;
+	transition: box-shadow 0.3s ease;
+	border: none;
+	font-size: 20px;
+	font-family: cursive, 'Lucida Handwriting';
+	padding: 5px;
+	margin-top: 32px;
+	margin-left: 250px;
+	height: 40px;
+}
+
+.HomeBtn:hover {
+	box-shadow: white;
+	color: white;
+	transform: scale(1.1);
+	box-shadow: 2px 2px 2px white;
+}
+
+.HomeBtnOnePortfolio {
+	text-decoration: none;
+	background-color: black;
+	border-radius: 10px;
+	box-shadow: 10px none;
+	color: white;
+	transition: box-shadow 0.3s ease;
+	border: none;
+	font-size: 20px;
+	font-family: cursive, 'Lucida Handwriting';
+	padding: 5px;
+	margin-top: 32px;
+	margin-left: 100px;
+	height: 40px;
+}
+
+.HomeBtnOnePortfolio:hover {
+	box-shadow: white;
+	color: white;
+	transform: scale(1.1);
+	box-shadow: 2px 2px 2px white;
+}
+
+.BackBtnOnePortfolio {
+	text-decoration: none;
+	background-color: black;
+	border-radius: 10px;
+	box-shadow: 10px none;
+	color: white;
+	transition: box-shadow 0.3s ease;
+	border: none;
+	font-size: 20px;
+	font-family: cursive, 'Lucida Handwriting';
+	padding: 5px;
+	margin-left: 30px;
+	margin-top: 32px;
+	height: 40px;
+}
+
+.BackBtnOnePortfolio:hover {
+	box-shadow: white;
+	color: white;
+	transform: scale(1.1);
+	box-shadow: 2px 2px 2px white;
+}
+
+
+.OnePortfolioImage {
+	height: 200px;
+	width: 200px;
+}
+
+/* Container for relative positioning */
+.container {
+	position: relative;
+	/* Adjust as needed */
+	margin: auto;
+}
+
+/* Style for the image */
+.container img {
+	display: block;
+}
+
+/* Style for the paragraph */
+.overlay-paragraph {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	text-align: center;
+	font-size: 18px;
+}
+
+.Portfolio-image {
+	height: 300px;
+	width: 300px;
+	padding: 0px;
+	border-style: none solid none solid;
+	border-color: black;
+
+}
+
+.Name-Of-Portfolio {
+	color: black;
+	padding-top: 5px;
+	text-align: center;
+}
+
+.Portfolio-Name {
+	border-style: solid solid none solid;
+	border-color: black;
+	width: 300px;
+	padding-bottom: 0px;
+	border-radius: 10px 10px 0px 0px;
+	height: 40px;
+	background-color: white;
+}
+
+.Portfolio-Created {
+	border-style: none solid solid solid;
+	border-color: black;
+	width: 300px;
+	padding-bottom: 0px;
+	border-radius: 0px 0px 10px 10px;
+	height: 40px;
+	background-color: white;
+}
+
+.Demo-Flex {
+	display: flex;
+}
+
+#Portfolio-body {
+	padding: 25px;
+	margin-top: 50px;
+}
+
+.ForEach-Portfolio {
+	padding: 10px;
+	float: left;
+	padding-right: 30px;
+}
+
+.ForEach-Portfolio:hover {
+	padding: 10px;
+	float: left;
+	transform: scale(1.05);
+	padding-right: 30px;
+}
+
+.ForEach-Portfolio-Name {
+	text-decoration: none;
+	color: black;
+	padding-top: 5px;
+}
+
+.Portfolio-Body-Demo {
+	border-style: none solid none solid;
+	border-color: black;
+	padding: 20px;
+	padding-bottom: 50px;
+	background-color: white;
+
+}
+
+.Contact-Me-Demo-Btn {
+	transition: transform 0.8s;
+	background-color: black;
+	border-radius: 10px;
+	border-style: none;
+	padding: 10px;
+	height: 40px;
+}
+
+.Contact-Me-Demo-Btn:hover {
+	transition: transform 0.8s;
+	transform: scale(1.1);
+	box-shadow: 2px 2px 2px white;
+}
+
+
+.Contact-Me-Demo-Name {
+	transition: transform 0.8s;
+	font-size: 15px;
+	font-family: cursive, 'Lucida Handwriting';
+	color: black;
+}
+
+.Intro-Name-Demo {
+	font-size: 60px;
+	color: black;
+	margin-left: 100px;
+	margin-top: 80px;
+	margin-bottom: 25px;
+}
+
+.portfolio-demo-intro-P {
+	color: black;
+	font-size: 20px;
+	font-family: cursive, 'Lucida Handwriting';
+	margin-bottom: 40px;
+	margin-right: 400px;
+	width: 500px;
+}
+
+.Intro-Demo-box {
+	width: 500px;
+	margin-left: 100px;
+}
+
+.contactbtn {
+	background-color: #3498db;
+	color: #fff;
+	padding: 10px;
+	cursor: pointer;
+	transition: transform 0.8s;
+}
+
+.container {
+	margin-left: 500px;
+}
+
+/* Style for the button */
+.hover-button {
+	width: 200px;
+	font-size: 20px;
+	cursor: pointer;
+	color: white;
+	background-color: black;
+	padding: 10px;
+	font-size: 25px;
+	padding-left: 30px;
+
+}
+
+/* Style for the hidden div */
+.hidden-div {
+	width: 200px;
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 10;
+	padding: 10px;
+	background-color: black;
+	color: white;
+}
+
+/* Show the hidden div on hover */
+.container:hover .hidden-div {
+	display: block;
+}
+
+.Reference-Demo-portfolio {
+	font-size: 35px;
+	font-family: cursive, 'Lucida Handwriting';
+	margin-top: 200px;
+	margin-left: 300px;
+	margin-bottom: 50px;
+}
+
+.reference-demo-body {
+	overflow-y: auto;
+	width: 600px;
+	height: 250px;
+}
+
+.Reference-Box-Demo-Outer {
+	height: 300px;
+	width: 650px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 20px;
+	margin-left: 100px;
+	margin-bottom: 100px;
+	padding: 20px;
+	box-shadow: 10px 10px 10px 10px lightgray
+}
+
+.Reference-Box-Demo-Outer:hover {
+	transform: scale(1.1);
+	margin-top: 100px;
+}
+
+.Reference-Section {
+	margin-left: 330px;
+}
+
+.Skills-Demo-portfolio {
+	font-size: 35px;
+	font-family: cursive, 'Lucida Handwriting';
+	margin-top: 300px;
+	margin-left: 150px;
+	margin-bottom: 50px;
+}
+
+.skills-demo-body {
+	overflow-y: auto;
+	width: 600px;
+	height: 250px;
+}
+
+.Skills-Box-Demo-Outer {
+	height: 300px;
+	width: 650px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 20px;
+	margin-left: 100px;
+	margin-bottom: 100px;
+	padding: 20px;
+	box-shadow: 10px 10px 10px 10px lightgray
+}
+
+.Skills-Box-Demo-Outer:hover {
+	transform: scale(1.1);
+}
+
+/* Flip card Styling */
+
+.flip-card {
+	background-color: transparent;
+	width: 490px;
+	height: 654px;
+	perspective: 1000px;
+	font-family: sans-serif;
+	margin-left: 500px;
+	margin-top: 200px;
+	margin-bottom: 300px;
+
+}
+
+.title {
+	font-size: 1.5em;
+	font-weight: 900;
+	text-align: center;
+	margin: 0;
+}
+
+.flip-card-inner {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+	transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+	box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	border: 0.5px solid #ffffff;
+	border-radius: 0.3em;
+}
+
+.flip-card-front {
+	background: linear-gradient(160deg, #a5abb9, 30%, transparent);
+	color: black;
+}
+
+.flip-card-back {
+	padding: 10px;
+	background: linear-gradient(160deg, #a5abb9, 30%, transparent);
+	color: black;
+	transform: rotateY(180deg);
+}
+
+
+.Reference-portfolio {
+	overflow-y: auto;
+	height: 300px;
+	width: 700px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.carousel-content {
+	height: 200px;
+	width: 1200px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding: 20px;
+	text-align: center;
+	background-color: #f0f0f0;
+}
+
+.carousel-paragraph {
+	padding-left: 80px;
+	padding-top: 10px;
+	padding-right: 150px;
+	padding-bottom: 20px;
+}
+
+#myCarousel {
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 200px;
+	padding: 30px;
+	margin-bottom: 300px;
+}
+
+.carousel-header {
+	margin-right: 100px;
+}
+
+.word-div {
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin: 5px;
+	display: inline-block;
+}
+
+.Language-Single {
+	margin-left: 100px;
+}
+
+
+.Language-Header {
+	font-size: 35px;
+	font-family: cursive, 'Lucida Handwriting';
+	margin-top: 200px;
+	margin-left: 100px;
+	margin-bottom: 50px;
+}
+
+.word-div:hover {
+	transform: scale(1.1);
+	box-shadow: 2px 2px 2px lightgray;
+}
+
+.Language-DIV {
+	margin-top: 350px;
+	margin-bottom: 300px;
+}
+
+.Experience-Header {
+	font-size: 35px;
+	font-family: cursive, 'Lucida Handwriting';
+	margin-top: 200px;
+	margin-left: 620px;
+	margin-bottom: 50px;
+}
+
+.experience-demo-body {
+	overflow-y: auto;
+	width: 900px;
+	height: 250px;
+}
+
+.Experience-Box-Demo-Outer {
+	height: 300px;
+	width: 950px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 20px;
+	margin-left: 250px;
+	margin-bottom: 300px;
+	padding: 20px;
+	box-shadow: 10px 10px 10px 10px lightgray
+}
+
+.Experience-Box-Demo-Outer:hover {
+	transform: scale(1.1);
+}
+
+.Footer-Bottom-Row {
+	display: flex;
+	justify-content: space-around;
+}
+
+.Footer-Top-Row {
+	display: flex;
+	justify-content: space-around;
+	border-style: solid none solid none;
+	border-color: rgb(255, 255, 255, 0.5);
+	;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-bottom: 30px;
+}
+
+.Footer-Link {
+	color: white;
+}
+
+.Contact-Me-Flex {
+	display: flex;
+}
+
+.Icon-Spacing {
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+.Home-Flex {
+	Display: flex;
+	margin-top: 250px;
+	margin-bottom: 250px;
+}
+
+.Home-Paragraph {
+	width: 500px;
+	font-size: 20px;
+}
+
+.Home-Header {
+	font-size: 60px;
+	margin-bottom: 30px;
+
+}
+
+.Home-Left-Div {
+	margin-left: 200px;
+}
+
+.Home-Get-Started {
+	margin-left: 400px;
+	margin-top: 150px;
+	height: 60px;
+	width: 200px;
+}
+
+.Get-Started-BTN {
+	font-size: 30px;
+}
+
+.Help-Center-Header {
+	font-size: 50px;
+	color: mediumblue;
+	font-family: cursive, 'Lucida Handwriting';
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: underline;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.Help-Center-Box {
+	display: flex;
+	margin-bottom: 100px;
+}
+
+.Help-Center-Border {
+	border-style: solid none solid none;
+	border-color: black;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	margin-bottom: 50px;
+}
+
+.LanguageImage {
+	width: 500px;
+	display: flex;
+	margin-left: 200px;
+	border-radius: 50px;
+}
+
+.Help-Center-Question {
+	font-size: 20px;
+	font-family: cursive, 'Lucida Handwriting';
+}
+
+.Help-Center-Language {
+	margin-left: 100px;
+}
+
+.Help-Center-P {
+	font-size: 20px;
+	width: 500px;
+	margin-top: 20px;
+}
+
+.Help-Center-Freq {
+	font-size: 30px;
+	font-family: cursive, 'Lucida Handwriting';
+	margin-left: 50px;
+	margin-bottom: 50px;
+	text-decoration: underline;
+
+}
+
+.SharingImage {
+	width: 250px;
+	margin-left: 400px;
+	border-radius: 50px;
+	margin-top: 30px;
+}
+
+.Demo-Image {
+	margin-left: 200px;
+	border-radius: 5px;
+}
+
+.Styling-About-Header {
+	margin-left: 50px;
+	margin-bottom: 10px;
+	font-size: 20px;
+	font-family: cursive, 'Lucida Handwriting';
+}
+
+.Demo-Image-2 {
+	margin-left: 100px;
+	border-radius: 5px;
+}

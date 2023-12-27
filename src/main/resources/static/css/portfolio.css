@@ -1,0 +1,136 @@
+@charset "ISO-8859-1";
+
+.containerShowOne {
+	margin-left: 0px;
+}
+
+/* Style for the button */
+
+/* Style for the hidden div */
+
+
+/* Show the hidden div on hover */
+.containerShowOne:hover .hidden-div-ShowOne {
+	display: block;
+}
+
+
+.Skills-ShowOne-portfolio {
+	font-size: 35px;
+	font-family: cursive, 'Lucida Handwriting';
+	margin-top: 300px;
+	margin-left: 150px;
+	margin-bottom: 50px;
+}
+
+.skills-ShowOne-body {
+	overflow-y: auto;
+	width: 600px;
+	height: 250px;
+}
+
+.Language-Single {
+	margin-left: 100px;
+}
+
+
+.Language-Header {
+	font-size: 35px;
+	font-family: cursive, 'Lucida Handwriting';
+	margin-top: 200px;
+	margin-left: 100px;
+	margin-bottom: 50px;
+}
+
+.Language-DIV {
+	margin-top: 350px;
+	margin-bottom: 300px;
+}
+
+.Experience-Box-ShowOne-Outer:hover {
+	transform: scale(1.1);
+}
+
+.flip-card {
+	background-color: transparent;
+	width: 490px;
+	height: 654px;
+	perspective: 1000px;
+	font-family: sans-serif;
+	margin-left: 500px;
+	margin-top: 200px;
+	margin-bottom: 300px;
+
+}
+
+.flip-card-inner {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+	transform: rotateY(180deg);
+}
+
+.flip-card-front-ShowOne,
+.flip-card-back-ShowOne {
+	box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	border: 0.5px solid #ffffff;
+	border-radius: 0.3em;
+}
+
+.Reference-Box-ShowOne-Outer:hover {
+	transform: scale(1.1);
+	margin-top: 100px;
+}
+
+.Reference-Section {
+	margin-left: 330px;
+}
+
+#AllPortfolio-Each {
+	padding: 25px;
+	margin-top: 50px;
+	display: block;
+}
+
+.ForEach-Portfolio-Fullname {
+	font-family: cursive, 'Lucida Handwriting';
+	text-align: center;
+	color: black;
+	padding-top: 10px;
+}
+
+.Portfolio-image-ForEach {
+	height: 300px;
+	width: 300px;
+	padding: 0px;
+	margin: 0px;
+	border-style: none solid none solid;
+	border-color: black;
+
+}
+
+.Portfolio-Created-ForEach {
+	border-style: none solid solid solid;
+	border-color: black;
+	width: 300px;
+	padding-bottom: 0px;
+	border-radius: 0px 0px 10px 10px;
+	height: 40px;
+	padding: 0px;
+	background-color: white;
+	margin: 0px;
+}
