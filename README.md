@@ -1,1 +1,2 @@
-![ProfilePilot](ProfilePilot.png)
+![ProfilePilotHomePg](ProfilePilot.png)
+![ProfilePilotCreatePg](ProfilePilotCreate.png)
